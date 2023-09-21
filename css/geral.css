@@ -29,6 +29,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background: #343A40;
+  border-radius: 5px;
 }
 
 .menu ul {
@@ -101,7 +102,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  color: #fb5c5c;
+  color:  #ffbe0b;
   
 }
 
@@ -123,10 +124,15 @@ body {
 .menu-lista {
   height: 370px;
   grid-column: 2;
+  margin-right: 40px;
 }
 
 .menu-lista li {
   cursor: pointer;
+}
+
+.menu-lista #foto-perfil{
+  border-radius: 50%;
 }
 
 .descricao-content {
